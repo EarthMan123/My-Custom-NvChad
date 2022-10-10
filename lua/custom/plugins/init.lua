@@ -1,4 +1,4 @@
-local overrides = require "custom.plugins.overrides"
+local overrides = require "custom.overrides"
 
 local plugins = {
  -- Debugging Plugins Starts Here:

@@ -1,8 +1,6 @@
 
 local M = {}
 
--- local load_override = require("core.utils").load_override
-
 M.ide = function()
     local present, ide = pcall(require, "IDE")
 
@@ -84,7 +82,6 @@ M.ide = function()
             },
         },
     }
-    options = load_override(options, "IDE")  
     ide.setup(options)
 end
 

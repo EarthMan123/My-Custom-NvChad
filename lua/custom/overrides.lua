@@ -5,7 +5,7 @@ M.treesitter = {
       "cpp",
       "python",
     },
-  }
+}
 
 M.mason = {
     ensure_installed = {
@@ -14,7 +14,7 @@ M.mason = {
         "clang-format",
         "codelldb",
         "cpplint",
-    "
+    
         -- python
         "pylint",
         "vulture",
@@ -24,7 +24,7 @@ M.mason = {
 
         --msic
         "cspell",
-      },
+    },
 }
 
 -- git support in nvimtree
@@ -32,7 +32,7 @@ M.nvimtree = {
     git = {
       enable = true,
     },
-  
+
     renderer = {
       highlight_git = true,
       icons = {
@@ -41,6 +41,6 @@ M.nvimtree = {
         },
       },
     },
-  }
+}
 
 return M
