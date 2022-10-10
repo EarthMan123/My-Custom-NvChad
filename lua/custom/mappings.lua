@@ -22,4 +22,16 @@ M.general = {
   x = {},
 }
 
+M.coderunner = {
+  n = {
+    ["<leader>r"] = { ":RunCode<CR>" },
+    ["<leader>rf"] = { ":RunFile<CR>" },
+    ["<leader>rft"] = { ":RunFile tab<CR>" },
+    ["<leader>rp"] = { ":RunProject<CR>" },
+    ["<leader>rc"] = { ":RunClose<CR>" },
+    ["<leader>crf"] = { ":CRFiletype<CR>" },
+    ["<leader>crp"] = { ":CRProjects<CR>" },
+  }
+}
+
 return M
